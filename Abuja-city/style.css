@@ -1,0 +1,250 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  max-width:100%;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
+
+
+
+  font-size: 62.5%; 
+
+}
+
+/* MAIN */
+
+.main {
+background-color: #fff;
+border: 3px solid #780116;
+width: 50rem;
+margin: 0 auto;
+
+@media only screen and (max-width: 700px) {
+  width: auto;
+  border: none;
+  margin: 0;
+}
+}
+
+/* HERO SECTION*/
+
+.hero__section {
+  text-align: center;
+  height: 30rem;
+  background-image: url("images/nas-abuja.jpg");
+  background-size: cover;
+  text-shadow:0 2rem 6rem #000 ;
+}
+
+.hero__heading {
+
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  font-weight: 800;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #003049;
+  background-color: transparent;
+  text-shadow: 0 2px 6pxpx black;
+  
+ 
+}
+
+.hero__heading-1 {
+   font-size: 3rem;
+   background: #f8f9fa;
+   padding: .5rem 1rem;
+   border-radius: 5px;
+   margin: 3rem 0 1rem 0;
+
+   @media only screen and (max-width: 700px) {
+    font-size: 2rem;
+  }
+
+}
+
+.hero__heading-2 {
+  font-size: 1.2rem; 
+  background: #f8f9fa;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+
+  @media only screen and (max-width: 700px) {
+  font-size: 1rem;
+  }
+}
+
+/* SECTION ACTIVITIES */
+
+.activities {
+  height: 80vh;
+  background-image:linear-gradient(to right bottom, #ced4da, #f8f9fa);
+  text-align: center;
+  padding: 2rem 3rem;
+
+  
+  @media only screen and (max-width: 700px) {
+   height: auto;
+  }
+
+  
+}
+
+.activity__heading {
+  font-size: 2rem;
+  font-weight: 800;
+  padding-bottom: 2rem;
+
+  @media only screen and (max-width: 700px) {
+  font-size: 1.5rem;
+  }
+}
+
+.sub__section {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+
+  
+  @media only screen and (max-width: 700px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+.location__one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+}
+
+.location__img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+
+.location__img:hover {
+  border-radius: 50%;
+  border: 5px solid #003049;
+  }
+
+.paragraph__one {
+margin-bottom: 2rem;
+font-size: 1.2rem;
+}
+
+.paragraph__two {
+  font-size: 1rem;
+}
+
+/* GUARD*/
+
+
+
+.guide__container {
+  background-image: linear-gradient(to left bottom, #ddb892, #e6ccb2);
+  height: 20rem;
+  width: 100%;
+  padding: 3rem;
+
+  
+  @media only screen and (max-width: 700px) {
+    width: 70%;
+   height: auto;
+   padding: 1rem;
+   margin: 0 auto;
+  }
+
+
+
+}
+
+.guide {
+    width: 40rem;
+    height: 15rem;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    @media only screen and (max-width: 700px) {
+      padding: .8rem .8rem;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    }
+  }
+   
+
+
+
+.guide__img {
+  width: 10rem;
+  height: 10rem;
+  border: .5rem solid #fff;
+  border-radius: 5px ;
+}
+
+
+.guide__img:hover {
+border-radius: 50%;
+border: 5px solid #003049;
+}
+
+.guide__biodata {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  
+}
+
+.guide__heading {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+
+  @media only screen and (max-width: 700px) {
+  font-size: 1rem;
+  }
+}
+
+.guide__paragraph {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+
+  @media only screen and (max-width: 700px) {
+   font-size: .8rem;
+  }
+}
+
+.guide__name {
+  font-size: 1.5rem;
+
+  @media only screen and (max-width: 700px) {
+   font-size: 1rem;
+  }
+
+  
+}
+
